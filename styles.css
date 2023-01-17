@@ -1,0 +1,43 @@
+/*generales*/
+html{
+    font-size: 62.5%;/*1rem=10px*/
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+    font-size: 2rem;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+/*clases*/
+
+.banner{
+   width: 100%;
+   height: 60rem;
+}
+.about h2{
+    text-align: center;
+}
+.dif h2{
+    text-align: center;;
+}
+.dif ul{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40rem 1rem 15rem;
+}
+.dif img{
+    width: 40%;
+}
+.item{
+    font-style: italic;
+}

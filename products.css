@@ -1,0 +1,135 @@
+html{
+    font-size: 62.5%;/*1rem=10px*/
+}
+body{
+    font-size: 2rem;
+}
+header{
+    background-color: rgb(181, 179, 179);
+    padding: 2rem 0;
+}
+footer{
+    background: url(images/bg.jpg);
+    text-align: center;
+    padding: 4rem;
+}
+/*class*/ 
+/*nav*/
+.box{
+    width: 150rem;
+    position: relative;
+    margin: 0 auto;
+}
+.panel li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0 1.5rem;
+}
+nav{
+    position: absolute;
+    top:11rem;
+    right: 0;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    font-size: 2.3rem;
+    text-decoration: none;
+    transition: color .2s ease-out;
+}
+nav a:hover {
+    color:rgb(215, 197, 57);
+}
+/*main*/
+.products{
+    width: 150rem;
+    position: relative;
+    margin: 0 auto;
+    padding: 5rem; 
+}
+.products li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+    border: .2rem solid rgb(0, 0, 0);
+    border-radius: 1rem;
+}
+.products li:hover{
+    border-color: rgb(215, 197, 57);
+    
+}
+.products li:hover h2{
+    font-size: 4rem;
+    
+} 
+.products li:active{
+    border-color: rgb(71, 179, 49);
+}
+.products h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.descript{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.price{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+/*contact*/
+
+/*footer*/
+.copyright{
+    color: white;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+main{
+    margin: 4rem 20rem;
+}
+form label, form legend{
+    display: block;
+    margin: 0 0 1rem;
+    font-size: 2rem;
+}
+.input-contact{
+    display: block;
+    margin: 0 0 2rem;
+    padding: 0.5rem 2rem;
+    width: 50%;
+}
+.checkbox{
+    margin: 1rem 0;
+}
+.enviar{
+    width: 40%;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background: rgb(215, 197, 57);
+    transition: 1s all;
+    
+}
+.enviar:hover{
+    background-color: rgb(174, 156, 20);
+    transform: scale(1.2);
+}
+table{
+    margin: 4rem 4rem;
+}
+thead{
+    background: rgb(51, 50, 50);
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+td, th{
+    padding: 1rem 1.5rem;
+    border: 0.1rem rgb(0, 0, 0) solid; 
+}
