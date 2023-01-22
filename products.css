@@ -81,6 +81,7 @@ nav a:hover {
     font-style: italic;
 }
 .map{
+
     padding: 3em 0;
     background: linear-gradient(rgb(255,255,255),rgb(181, 179, 179));
 }
@@ -93,9 +94,10 @@ nav a:hover {
     text-align: center;
 }
 .dif{
-    width: 120rem;
+    width: 100%;
     padding: 3em 0;
     background: rgb(181, 179, 179);
+    margin: 0;
 }
 .dif-content{
     width: 64rem;
